@@ -2,7 +2,13 @@
   min-height: 100vh;
   background: linear-gradient(
     to right,
-    rgba(255, 255, 0, 0.692),
-    rgba(0, 128, 0, 0.754)
+    rgba(72, 0, 255, 0.3),
+    rgba(128, 62, 0, 0.3)
   );
+}
+.entry {
+  background-color: rgba(0, 179, 255, 0.432);
+}
+.bad {
+  background-color: rgba(255, 98, 0, 0.361);
 }

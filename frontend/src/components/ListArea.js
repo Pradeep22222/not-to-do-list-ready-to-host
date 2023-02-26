@@ -27,6 +27,7 @@ export const ListArea = ({
             switchTask={switchTask}
             handleOnCheck={handleOnCheck}
             ids={ids}
+            className="entry"
           />
         </Col>
         <Col>
@@ -37,6 +38,7 @@ export const ListArea = ({
             list={badList}
             handleOnCheck={handleOnCheck}
             ids={ids}
+            className="bad"
           />
 
           <div className="text-end text-danger fw-bold">

@@ -9,12 +9,13 @@ export const TaskList = ({
   handleOnCheck,
   name,
   ids,
+  className,
 }) => {
   return (
     <div className="mt-3">
       <h2 className="text-center">{title}</h2>
       <div className="table mt-4">
-        <Table striped>
+        <Table striped className={className}>
           <thead>
             <tr>
               <th>

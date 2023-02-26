@@ -1,5 +1,4 @@
 import axios from "axios";
-
 const apiEp = "/api/v1/task/";
 
 export const fetchTasks = async () => {
